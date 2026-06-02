@@ -19,36 +19,54 @@ const Home = () => {
             essentials. We believe in natural beauty, luxury care, and
             confidence that shines from within.
           </p>
+<div className="grid md:grid-cols-3 gap-6 pt-10">
+  <div className="bg-pink-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+    <img
+      src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80"
+      alt="Natural Beauty"
+      className="w-full h-72 object-cover"
+    />
+    <div className="bg-white p-6">
+      <h3 className="text-pink-600 font-bold text-xl">
+        Natural Beauty
+      </h3>
+      <p className="text-gray-600 mt-2">
+        Safe, organic & skin-friendly products
+      </p>
+    </div>
+  </div>
+  <div className="bg-pink-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+    <img
+      src="https://images.unsplash.com/photo-1652706299340-e8a346491541?w=600&auto=format&fit=crop&q=80"
+      alt="Luxury Care"
+      className="w-full h-72 object-cover"
+    />
+    <div className="bg-white p-6">
+      <h3 className="text-pink-600 font-bold text-xl">
+        Luxury Care
+      </h3>
+      <p className="text-gray-600 mt-2">
+        Premium cosmetic experience
+      </p>
+    </div>
+  </div>
+  <div className="bg-pink-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition">
+    <img
+      src="https://images.unsplash.com/photo-1600634999623-864991678406?w=600&auto=format&fit=crop&q=80"
+      alt="Trusted Brand"
+      className="w-full h-72 object-cover"
+    />
+    <div className="bg-white p-6">
+      <h3 className="text-pink-600 font-bold text-xl">
+        Trusted Brand
+      </h3>
+      <p className="text-gray-600 mt-2">
+        Loved by beauty experts
+      </p>
+    </div>
+  </div>
 
-          <div className="grid md:grid-cols-3 gap-6 pt-10">
-            <div className="bg-white p-6 rounded-xl shadow">
-              <h3 className="text-pink-600 font-bold text-xl">
-                Natural Beauty
-              </h3>
-              <p className="text-gray-600 mt-2">
-                Safe, organic & skin-friendly products
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow">
-              <h3 className="text-pink-600 font-bold text-xl">
-                Luxury Care
-              </h3>
-              <p className="text-gray-600 mt-2">
-                Premium cosmetic experience
-              </p>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow">
-              <h3 className="text-pink-600 font-bold text-xl">
-                Trusted Brand
-              </h3>
-              <p className="text-gray-600 mt-2">
-                Loved by beauty experts
-              </p>
-            </div>
-          </div>
-
+</div>
           <div className="flex justify-center gap-4 pt-6">
             <button className="bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition">
               Shop Now
@@ -190,6 +208,37 @@ const Home = () => {
       </div>
 
     </div>
+  </div>
+</section>
+<section className="bg-pink-50 py-20">
+  <div className="max-w-4xl mx-auto px-6 text-center">
+
+    <h2 className="text-4xl font-bold text-pink-600">
+      Join Tiava Community
+    </h2>
+
+    <p className="text-gray-600 mt-4">
+      Get skincare tips, beauty secrets & exclusive offers directly in your inbox.
+    </p>
+
+    <div className="mt-8 flex flex-col md:flex-row items-center justify-center gap-4">
+      
+      <input
+        type="email"
+        placeholder="Enter your email"
+        className="w-full md:w-2/3 px-5 py-3 rounded-full border border-gray-300 focus:outline-none focus:border-pink-500"
+      />
+
+      <button className="bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-700 transition">
+        Subscribe
+      </button>
+
+    </div>
+
+    <p className="text-gray-500 text-sm mt-4">
+      No spam, only beauty updates 💖
+    </p>
+
   </div>
 </section>
     </>
