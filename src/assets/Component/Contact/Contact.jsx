@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
 <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4 py-10">
 <div className="w-full max-w-4xl bg-white shadow-lg rounded-2xl overflow-hidden grid md:grid-cols-2">
-<div className="bg-blue-600 text-white p-10 flex flex-col justify-center">
+<div className="bg-pink-600 text-white p-10 flex flex-col justify-center">
 <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
 <p className="text-lg mb-6">
  We'd love to hear from you. Send us a message and we’ll respond as soon as possible.
@@ -12,7 +12,7 @@ const ContactPage = () => {
 <div className="space-y-4">
   <p> Delhi, India</p>
 <p> +91 98765 43210</p>
-<p>✉️ support@mindfuladroit.com</p>
+<p>✉️ support@Tiava123.com</p>
 </div>
 </div>
  <div className="p-10">
@@ -24,7 +24,7 @@ Full Name
 <input
 type="text"
 placeholder="Enter your name"
-className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-600"
 />
 </div>
 <div>
@@ -34,7 +34,7 @@ Email Address
 <input
 type="email"
 placeholder="Enter your email"
-className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-600"
 />
 </div>
 <div>
@@ -42,12 +42,12 @@ className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none
 <textarea
 rows="5"
 placeholder="Write your message..."
-className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-600"
 ></textarea>
 </div>
 <button
 type="submit"
-className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300"
+className="w-full bg-pink-600 text-white py-3 rounded-lg hover:bg-pink-700 transition duration-300"
 >
 Send Message
 </button>
