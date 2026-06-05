@@ -3,83 +3,83 @@ import React from "react";
 const Home = () => {
   return (
     <>
+<section className="relative overflow-hidden bg-gradient-to-r from-pink-50 via-white to-rose-50 py-24">
+  
 
-      <div className="bg-pink-50 min-h-screen flex items-center">
-        <div className="max-w-4xl mx-auto px-6 text-center space-y-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-pink-600">
-            Tiava
-          </h1>
+  <div className="absolute top-0 left-0 w-72 h-72 bg-pink-200 rounded-full blur-3xl opacity-30"></div>
+  <div className="absolute bottom-0 right-0 w-72 h-72 bg-rose-200 rounded-full blur-3xl opacity-30"></div>
 
-          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800">
-            Glow Naturally, Shine Beautifully
-          </h2>
+  <div className="relative max-w-7xl mx-auto px-6">
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
 
-          <p className="text-gray-600 text-lg leading-relaxed">
-            Welcome to Tiava — your destination for premium skincare & beauty
-            essentials. We believe in natural beauty, luxury care, and
-            confidence that shines from within.
-          </p>
-<div className="grid md:grid-cols-3 gap-6 pt-10">
-  <div className="bg-pink-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition">
-    <img
-      src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&auto=format&fit=crop&q=80"
-      alt="Natural Beauty"
-      className="w-full h-72 object-cover"
-    />
-    <div className="bg-white p-6">
-      <h3 className="text-pink-600 font-bold text-xl">
-        Natural Beauty
-      </h3>
-      <p className="text-gray-600 mt-2">
-        Safe, organic & skin-friendly products
-      </p>
-    </div>
-  </div>
-  <div className="bg-pink-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition">
-    <img
-      src="https://images.unsplash.com/photo-1652706299340-e8a346491541?w=600&auto=format&fit=crop&q=80"
-      alt="Luxury Care"
-      className="w-full h-72 object-cover"
-    />
-    <div className="bg-white p-6">
-      <h3 className="text-pink-600 font-bold text-xl">
-        Luxury Care
-      </h3>
-      <p className="text-gray-600 mt-2">
-        Premium cosmetic experience
-      </p>
-    </div>
-  </div>
-  <div className="bg-pink-50 rounded-xl overflow-hidden shadow hover:shadow-lg transition">
-    <img
-      src="https://images.unsplash.com/photo-1600634999623-864991678406?w=600&auto=format&fit=crop&q=80"
-      alt="Trusted Brand"
-      className="w-full h-72 object-cover"
-    />
-    <div className="bg-white p-6">
-      <h3 className="text-pink-600 font-bold text-xl">
-        Trusted Brand
-      </h3>
-      <p className="text-gray-600 mt-2">
-        Loved by beauty experts
-      </p>
-    </div>
-  </div>
+      <div>
+        <span className="inline-block px-4 py-2 bg-pink-100 text-pink-600 rounded-full font-semibold">
+        Premium Beauty Collection
+        </span>
 
-</div>
-          <div className="flex justify-center gap-4 pt-6">
-            <button className="bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition">
-              Shop Now
-            </button>
+        <h1 className="mt-6 text-5xl md:text-6xl font-extrabold leading-tight text-gray-900">
+          Reveal Your
+          <span className="block text-pink-600">
+            Natural Beauty
+          </span>
+        </h1>
 
-            <button className="border border-pink-600 text-pink-600 px-6 py-3 rounded-full hover:bg-pink-600 hover:text-white transition">
-              Learn More
-            </button>
+        <p className="mt-6 text-lg text-gray-600 max-w-lg leading-relaxed">
+          Experience luxurious skincare crafted with premium ingredients.
+          Nourish, protect and enhance your skin's natural glow with
+          products designed for modern beauty lovers.
+        </p>
+
+    
+        <div className="mt-8 flex flex-wrap gap-4">
+          <div className="bg-white px-4 py-3 rounded-xl shadow-sm">
+            🌿 Natural Ingredients
           </div>
+
+          <div className="bg-white px-4 py-3 rounded-xl shadow-sm">
+            🧴 Dermatologist Tested
+          </div>
+
+          <div className="bg-white px-4 py-3 rounded-xl shadow-sm">
+            💖 Cruelty Free
+          </div>
+        </div>
+
+      
+        <div className="mt-10 flex flex-wrap gap-4">
+          <button className="px-8 py-4 bg-pink-600 text-white rounded-full font-semibold shadow-lg hover:bg-pink-700 hover:scale-105 transition-all duration-300">
+            Shop Now
+          </button>
+
+          <button className="px-8 py-4 border-2 border-pink-600 text-pink-600 rounded-full font-semibold hover:bg-pink-50 transition-all duration-300">
+            Explore More
+          </button>
         </div>
       </div>
 
+      <div className="relative flex justify-center">
+        
+        <div className="absolute -top-6 -left-6 w-full h-full bg-pink-300 rounded-[40px] rotate-6"></div>
 
+        <div className="relative bg-white p-4 rounded-[40px] shadow-2xl">
+          <img
+            src="https://images.unsplash.com/photo-1598528738936-c50861cc75a9?w=900"
+            alt="Beauty Product"
+            className="w-full max-w-lg h-[550px] object-cover rounded-[30px]"
+          />
+        </div>
+
+   
+        <div className="absolute bottom-8 -left-8 bg-white p-4 rounded-2xl shadow-xl">
+          <p className="text-sm text-gray-500">Trusted by</p>
+          <h4 className="font-bold text-xl">50K+ Customers</h4>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
